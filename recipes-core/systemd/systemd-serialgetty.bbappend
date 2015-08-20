@@ -1,0 +1,5 @@
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+
+PR = "r6"
+
+SERIAL_CONSOLE ?= "115200 ttyO0"
